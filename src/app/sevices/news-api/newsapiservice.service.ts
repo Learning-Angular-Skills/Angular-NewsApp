@@ -26,6 +26,15 @@ export class NewsapiserviceService {
   // general news api url
   generalapiurl: string = `https://newsapi.org/v2/top-headlines?country=us&category=general&pageSize=100&apiKey=${this.apikey}`;
 
+  // general news api url
+  healthapiurl: string = `https://newsapi.org/v2/top-headlines?country=us&category=health&pageSize=100&apiKey=${this.apikey}`;
+
+  // science news api url
+  scienceapiurl: string = `https://newsapi.org/v2/top-headlines?country=us&category=science&pageSize=100&apiKey=${this.apikey}`;
+
+  // sports news api url
+  sportsapiurl: string = `https://newsapi.org/v2/top-headlines?country=us&category=sports&pageSize=100&apiKey=${this.apikey}`;
+
   topHeading(): Observable<any>
   {
     return this._client.get(this.newsApiUrl);
@@ -45,5 +54,17 @@ export class NewsapiserviceService {
 
   generalNews(): Observable<any> {
     return this._client.get(this.generalapiurl);
+  }
+
+  healthNews(): Observable<any> {
+    return this._client.get(this.healthapiurl);
+  }
+
+  scienceNews(): Observable<any> {
+    return this._client.get(this.scienceapiurl);
+  }
+
+  sportsNews(): Observable<any> {
+    return this._client.get(this.sportsapiurl);
   }
 }
