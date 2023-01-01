@@ -7,18 +7,20 @@ import { TopheadingComponent } from '../component/topheading/topheading.componen
 import { HttpClientModule } from '@angular/common/http';
 import { TechnewsComponent } from '../component/technews/technews.component';
 import { LoadingBarHttpClientModule } from '@ngx-loading-bar/http-client';
+import { PagenotfoundComponent } from '../component/pagenotfound/pagenotfound.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TopheadingComponent,
-    TechnewsComponent
+    TechnewsComponent,
+    PagenotfoundComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    LoadingBarHttpClientModule
+    LoadingBarHttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
