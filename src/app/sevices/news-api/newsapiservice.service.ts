@@ -23,6 +23,9 @@ export class NewsapiserviceService {
   // entertainment news api url
   entertainmentapiurl: string = `https://newsapi.org/v2/top-headlines?country=us&category=entertainment&pageSize=100&apiKey=${this.apikey}`;
 
+  // general news api url
+  generalapiurl: string = `https://newsapi.org/v2/top-headlines?country=us&category=general&pageSize=100&apiKey=${this.apikey}`;
+
   topHeading(): Observable<any>
   {
     return this._client.get(this.newsApiUrl);
@@ -34,5 +37,13 @@ export class NewsapiserviceService {
 
   bussinessNews(): Observable<any> {
     return this._client.get(this.bussinessapiurl);
+  }
+
+  entertainmentNews(): Observable<any> {
+    return this._client.get(this.entertainmentapiurl);
+  }
+
+  generalNews(): Observable<any> {
+    return this._client.get(this.generalapiurl);
   }
 }

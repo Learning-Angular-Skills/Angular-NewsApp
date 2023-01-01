@@ -9,6 +9,11 @@ import { TechnewsComponent } from '../component/technews/technews.component';
 import { LoadingBarHttpClientModule } from '@ngx-loading-bar/http-client';
 import { PagenotfoundComponent } from '../component/pagenotfound/pagenotfound.component';
 import { BussinessnewsComponent } from '../component/bussinessnews/bussinessnews.component';
+import { EntertainmentComponent } from '../component/entertainment/entertainment.component';
+import { GeneralComponent } from '../component/general/general.component';
+import { HealthnewsComponent } from '../component/healthnews/healthnews.component';
+import { SciencenewsComponent } from '../component/sciencenews/sciencenews.component';
+import { SportsnewsComponent } from '../component/sportsnews/sportsnews.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +21,12 @@ import { BussinessnewsComponent } from '../component/bussinessnews/bussinessnews
     TopheadingComponent,
     TechnewsComponent,
     PagenotfoundComponent,
-    BussinessnewsComponent
+    BussinessnewsComponent,
+    EntertainmentComponent,
+    GeneralComponent,
+    HealthnewsComponent,
+    SciencenewsComponent,
+    SportsnewsComponent
   ],
   imports: [
     BrowserModule,
