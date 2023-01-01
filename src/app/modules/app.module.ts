@@ -8,13 +8,15 @@ import { HttpClientModule } from '@angular/common/http';
 import { TechnewsComponent } from '../component/technews/technews.component';
 import { LoadingBarHttpClientModule } from '@ngx-loading-bar/http-client';
 import { PagenotfoundComponent } from '../component/pagenotfound/pagenotfound.component';
+import { BussinessnewsComponent } from '../component/bussinessnews/bussinessnews.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TopheadingComponent,
     TechnewsComponent,
-    PagenotfoundComponent
+    PagenotfoundComponent,
+    BussinessnewsComponent
   ],
   imports: [
     BrowserModule,

@@ -1,25 +1,25 @@
 .container {
-  padding: 30px 10px;
   min-height: 100vh;
+  padding: 30px 10px;
 }
 
 .box {
   padding: 10px 10px;
-  background-color: aliceblue;
+  background-color: darksalmon;
   height: 100%;
   border: 1px solid black;
   border-radius: 5px;
 }
 
-.box:hover{
-    background-color:gainsboro;
-}
+  .box:hover {
+    background-color: gainsboro;
+  }
 
-.box h5{
+  .box h5 {
     font-size: 16px;
     font-weight: bold;
-}
+  }
 
-.read-more:hover{
-    background-color:crimson;
+.read-more:hover {
+  background-color: crimson;
 }
