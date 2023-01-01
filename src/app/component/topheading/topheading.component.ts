@@ -14,7 +14,6 @@ export class TopheadingComponent implements OnInit {
 
   ngOnInit(): void {
     this.newsapi.topHeading().subscribe((result) => {
-      console.log(result);
       this.topHeadingDisplay = result.articles;
     });
   }
