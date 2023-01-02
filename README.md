@@ -1,7 +1,7 @@
 # [Angular] News App - Author: Hung Nguyen
 ## Introduction:
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.8.
+Building a simple news app with [angular](https://angular.io/) and [news api](https://newsapi.org/). This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.8.
 
 ## Demo:
 
