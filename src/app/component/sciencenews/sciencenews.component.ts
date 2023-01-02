@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NewsapiserviceService } from '../../sevices/news-api/newsapiservice.service';
 
 @Component({
   selector: 'app-sciencenews',
@@ -7,9 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SciencenewsComponent implements OnInit {
 
-  constructor() { }
+  constructor(private newsapi: NewsapiserviceService) { }
+
+  news: any[] = [];
 
   ngOnInit(): void {
+    this.newsapi.scienceNews().subscribe((rs) => {
+      this.news = rs.articles;
+    });
   }
 
 }
