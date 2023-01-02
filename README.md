@@ -6,6 +6,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Demo:
 
 ![image](https://user-images.githubusercontent.com/55732539/210191300-c6b42c15-49be-42bf-85b1-d257d2e50327.png)
+![image](https://user-images.githubusercontent.com/55732539/210191334-d261676a-0e01-4d0a-90d4-ad4967e76c9a.png)
+![image](https://user-images.githubusercontent.com/55732539/210191344-31bbd086-4916-4996-a0b5-49472c21a00d.png)
 
 ## Development server:
 
